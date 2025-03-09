@@ -1,0 +1,51 @@
+body {
+    font-family: Arial,  sans-serif; 
+    font-size:18px;
+    background-color: #5988FF; 
+    color: #FFFFFF; 
+}
+h1 {
+    color: #D6FF6B; 
+    font-size: 31px; 
+    font-family: Georgia, serif; 
+}
+h2 {
+    color: #FD98FB;
+    font-size: 31px; 
+    font-family: Georgia, serif; 
+} 
+
+h3 {
+    color: #D6FF6B;
+}
+
+@keyframes color-change {
+    0% {
+      color: #D6FF6B;
+    }
+  
+    50% {
+      color: #bebebe;
+    }
+  
+    100% {
+      color: #FD98FB;
+    }
+}
+
+h1:hover {
+    animation: color-change 4s infinite;
+}
+
+h2:hover {
+  animation: color-change 4s infinite;
+}
+
+p:hover {
+  animation: color-change 4s infinite;
+}
+
+li:hover {
+  animation: color-change 4s infinite;
+}
+             
